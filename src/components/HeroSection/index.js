@@ -24,7 +24,10 @@ const HeroSection = () => {
           if you are a vegan, don't try us cause you you will no longer be !
         </HeroP>
         <HeroBtnWrapper>
-          <Button to="starter" onMouseEnter={onHover} onMouseLeave={onHover}>
+          <Button to="starter" onMouseEnter={onHover} onMouseLeave={onHover}
+          primary = "true"
+          dark = "true"
+          >
             Order Now {hover ? <ArrowForward /> : <ArrowRight /> }
           </Button>
         </HeroBtnWrapper>
