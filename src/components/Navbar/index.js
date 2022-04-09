@@ -15,9 +15,6 @@ const Navbar = ({ toggle }) => {
           </MobileIcone>
           <NavMenu>
             <NavItem>
-              <NavLinks to="about">About</NavLinks>
-            </NavItem>
-            <NavItem>
               <NavLinks to="starter">Starter</NavLinks>
             </NavItem>
             <NavItem>
@@ -28,6 +25,9 @@ const Navbar = ({ toggle }) => {
             </NavItem>
             <NavItem>
               <NavLinks to="drinks">Drinks</NavLinks>
+            </NavItem>
+            <NavItem>
+              <NavLinks to="about">About</NavLinks>
             </NavItem>
           </NavMenu>
           <NavBtn>
