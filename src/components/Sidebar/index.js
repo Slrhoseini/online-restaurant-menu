@@ -12,8 +12,8 @@ const Sidebar = ({isOpen, toggle}) => {
           <SidebarLink to="starter" onClick={toggle}>
             Starter
           </SidebarLink>
-          <SidebarLink to="pizzas" onClick={toggle}>
-            Pizzas
+          <SidebarLink to="hotdogs" onClick={toggle}>
+            Hotdogs
           </SidebarLink>
           <SidebarLink to="burgers" onClick={toggle}>
             Burgers

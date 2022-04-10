@@ -1,19 +1,20 @@
 import styled from 'styled-components';
 
 export const MenuContainer = styled.div`
-  height: 800px;
+  height: 2450px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background: #010606;
+  color: #000;
 
   @media screen and (max-width: 768px) {
-    height:2100px;
+    height: 6200px;
   }
 
   @media screen and (max-width: 480px) {
-    height: 1300px;
+    height: 12500px;
   }
 `;
 
@@ -37,7 +38,7 @@ export const MenuWrapper = styled.div`
 `;
 
 export const MenuCard = styled.div`
-  background: #fff;
+  background: #d9d9d9;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -62,31 +63,21 @@ export const MenuIcon = styled.img`
 `;
 
 export const MenuH1 = styled.h1`
-  font-size: 2.5rem;
-  color: #fff;
-  margin-bottom: 64px;
-
+  font-size: 3.5rem;
+  color: #FFD200;
+  margin-bottom: 20px;
+  margin-top: 50px;
   @media screen and (max-width: 480px) {
     font-size: 2rem;
   }
 `;
 
 export const MenuH2 = styled.h2`
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-bottom: 10px;
 `;
 
 export const MenuP = styled.p`
-  font-size: 1rem;
+  font-size: 1.05rem;
   text-align: center;
-`;
-
-export const MenuH12 = styled.h1`
-  font-size: 2.5rem;
-  color: #fff;
-  margin-bottom: 64px;
-
-  @media screen and (max-width: 480px) {
-    font-size: 2rem;
-  }
 `;

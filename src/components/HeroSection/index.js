@@ -18,7 +18,7 @@ const HeroSection = () => {
       </HeroBg>
       <HeroContent>
         <HeroH1>
-          Burzza Represents Best Burgers and Pizzas
+          Hotger, Best Provider of HotDog and Burgers
         </HeroH1>
         <HeroP>
           if you are a vegan, don't try us cause you you will no longer be !
