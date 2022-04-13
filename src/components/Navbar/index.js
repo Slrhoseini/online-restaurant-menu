@@ -1,12 +1,34 @@
-import React from 'react'
+import React, {useEffect, useState} from 'react'
 import {Nav, NavbarContainer, NavLogo, MobileIcone, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink} from './NavbarElements'
 import {FaBars} from 'react-icons/fa'
+import {IconContext} from 'react-icons/lib';
+import {animateScroll as scroll} from 'react-scroll'
+
 const Navbar = ({ toggle }) => {
+  const [scrollNav, setScrollNav] = useState(false)
+
+  const changeNav = () => {
+    if(window.scrollY >= 80) {
+      setScrollNav(true)
+    } else {
+      setScrollNav(false)
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', changeNav)
+  }, []);
+
+  const toggleHome = () => {
+    scroll.scrollToTop()
+  };
+
 	return (
-  	<>
-    	<Nav>
+  <>
+  <IconContext.Provider value={{ color: '#fff'}}>
+    <Nav scrollNav={scrollNav}>
         <NavbarContainer>
-          <NavLogo to="/">
+          <NavLogo to="/" onClick={toggleHome}>
             Hotger
           </NavLogo>
           <MobileIcone onClick={toggle}>
@@ -14,19 +36,29 @@ const Navbar = ({ toggle }) => {
           </MobileIcone>
           <NavMenu>
             <NavItem>
-              <NavLinks to="starter">Starter</NavLinks>
+              <NavLinks to="starter"
+              smooth={true} duration={500} spy={true} exact='true' offset={-80}
+              >Starter</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="hotdogs">HotDogs</NavLinks>
+              <NavLinks to="hotdogs"
+              smooth={true} duration={500} spy={true} exact='true' offset={-80}
+              >HotDogs</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="burgers">Burgers</NavLinks>
+              <NavLinks to="burgers"
+              smooth={true} duration={500} spy={true} exact='true' offset={-80}
+              >Burgers</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="drinks">Drinks</NavLinks>
+              <NavLinks to="drinks"
+              smooth={true} duration={500} spy={true} exact='true' offset={-80}
+              >Drinks</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="about">About</NavLinks>
+              <NavLinks to="about"
+              smooth={true} duration={500} spy={true} exact='true' offset={-80}
+              >About</NavLinks>
             </NavItem>
           </NavMenu>
           <NavBtn>
@@ -34,6 +66,7 @@ const Navbar = ({ toggle }) => {
           </NavBtn>
         </NavbarContainer>
       </Nav>
+  </IconContext.Provider>
     </>
   );
 }
