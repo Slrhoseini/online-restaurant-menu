@@ -64,17 +64,17 @@ const Menu = () => {
       <MenuCard>
           <MenuIcon src={Icon7}/>
           <MenuH2> The Classic HotDog </MenuH2>
-          <MenuP> Special Frankfurters with Sauce </MenuP>
+          <MenuP> HotDog with Sauce </MenuP>
         </MenuCard>
         <MenuCard>
           <MenuIcon src={Icon8}/>
           <MenuH2> Cheesy HotDog </MenuH2>
-          <MenuP> Special Frankfurters with Cheese and Sauce </MenuP>
+          <MenuP> HotDog with Cheese and Sauce </MenuP>
         </MenuCard>
         <MenuCard>
           <MenuIcon src={Icon9}/>
           <MenuH2> White HotDog </MenuH2>
-          <MenuP> Special Frankfurters with Mushroom Sauce </MenuP>
+          <MenuP> HotDog with Mushroom Sauce </MenuP>
         </MenuCard>
       </MenuWrapper>
 

@@ -3,12 +3,13 @@ import HeroSection from '../components/HeroSection'
 import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
 import Menu from '../components/Menu';
+import Footer from '../components/Footer';
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false)
 
   const toggle = () => {
-    setIsOpen(!isOpen)
+    setIsOpen(!isOpen);
   }
 
   return (
@@ -17,6 +18,7 @@ const Home = () => {
     <Navbar toggle={toggle} />
     <HeroSection />
     <Menu />
+    <Footer />
   </>
   );
 }

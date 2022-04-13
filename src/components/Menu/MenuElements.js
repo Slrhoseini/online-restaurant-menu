@@ -1,16 +1,16 @@
 import styled from 'styled-components';
 
 export const MenuContainer = styled.div`
-  height: 2450px;
+  max-height: 12500px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   background: #010606;
   color: #000;
 
   @media screen and (max-width: 768px) {
-    height: 6200px;
+    height: 6350px;
   }
 
   @media screen and (max-width: 480px) {
