@@ -1,8 +1,8 @@
-import React, {useEffect, useState} from 'react'
+import React, {useEffect, useState} from 'react';
 import {Nav, NavbarContainer, NavLogo, MobileIcone, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink} from './NavbarElements'
-import {FaBars} from 'react-icons/fa'
+import {FaBars} from 'react-icons/fa';
 import {IconContext} from 'react-icons/lib';
-import {animateScroll as scroll} from 'react-scroll'
+import {animateScroll as scroll} from 'react-scroll';
 
 const Navbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false)

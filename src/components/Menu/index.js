@@ -24,7 +24,7 @@ import {MenuContainer, MenuH1, MenuWrapper, MenuCard, MenuIcon, MenuH2, MenuP} f
 const Menu = () => {
   return (
     <MenuContainer id="menus">
-      <MenuH1> Starter </MenuH1>
+      <MenuH1 id="starter"> Starter </MenuH1>
       <MenuWrapper>
       <MenuCard>
           <MenuIcon src={Icon1}/>
@@ -34,17 +34,17 @@ const Menu = () => {
         <MenuCard>
           <MenuIcon src={Icon2}/>
           <MenuH2> Cheese Fries</MenuH2>
-          <MenuP> Fries with Cheese </MenuP>
+          <MenuP> Fries x Cheese </MenuP>
         </MenuCard>
         <MenuCard>
         <MenuIcon src={Icon3}/>
           <MenuH2> White Fries </MenuH2>
-          <MenuP> Fries with Mushroom Sauce </MenuP>
+          <MenuP> Fries x Mushroom Sauce </MenuP>
         </MenuCard>
         <MenuCard>
           <MenuIcon src={Icon4}/>
           <MenuH2> Chili Fries </MenuH2>
-          <MenuP> Fries with Hot Sauce </MenuP>
+          <MenuP> Fries x Hot Sauce </MenuP>
         </MenuCard>
         <MenuCard>
           <MenuIcon src={Icon5}/>
@@ -54,67 +54,67 @@ const Menu = () => {
         <MenuCard>
           <MenuIcon src={Icon6}/>
           <MenuH2> Chicken Caesar Salad </MenuH2>
-          <MenuP> Caesar Salad with Fried Chicken </MenuP>
+          <MenuP> Caesar Salad x Fried Chicken </MenuP>
         </MenuCard>
       </MenuWrapper>
 
 
-      <MenuH1> HotDogs </MenuH1>
+      <MenuH1 id="hotdogs"> HotDogs </MenuH1>
       <MenuWrapper>
       <MenuCard>
           <MenuIcon src={Icon7}/>
           <MenuH2> The Classic HotDog </MenuH2>
-          <MenuP> HotDog with Sauce </MenuP>
+          <MenuP> HotDog x Sauce </MenuP>
         </MenuCard>
         <MenuCard>
           <MenuIcon src={Icon8}/>
           <MenuH2> Cheesy HotDog </MenuH2>
-          <MenuP> HotDog with Cheese and Sauce </MenuP>
+          <MenuP> HotDog x Cheese x Sauce </MenuP>
         </MenuCard>
         <MenuCard>
           <MenuIcon src={Icon9}/>
           <MenuH2> White HotDog </MenuH2>
-          <MenuP> HotDog with Mushroom Sauce </MenuP>
+          <MenuP> HotDog x Mushroom Sauce </MenuP>
         </MenuCard>
       </MenuWrapper>
 
 
-      <MenuH1> Burgers </MenuH1>
+      <MenuH1 id="burgers"> Burgers </MenuH1>
         <MenuWrapper>
         <MenuCard>
           <MenuIcon src={Icon10}/>
           <MenuH2> Normal Burger </MenuH2>
-          <MenuP> 200gr Burger with Sauce </MenuP>
+          <MenuP> 200gr Burger x Sauce </MenuP>
         </MenuCard>
         <MenuCard>
           <MenuIcon src={Icon11}/>
           <MenuH2> Chili Burger </MenuH2>
-          <MenuP> 200gr Burger with HotSauce </MenuP>
+          <MenuP> 200gr Burger x HotSauce </MenuP>
         </MenuCard>
         <MenuCard>
         <MenuIcon src={Icon12}/>
           <MenuH2> Cheese Burger </MenuH2>
-          <MenuP> 200gr Burger with Cheese </MenuP>
+          <MenuP> 200gr Burger x Cheese </MenuP>
         </MenuCard>
         <MenuCard>
           <MenuIcon src={Icon13}/>
           <MenuH2> Mushroom Burger </MenuH2>
-          <MenuP> 200gr Burger with Mushroom </MenuP>
+          <MenuP> 200gr Burger x Mushroom </MenuP>
         </MenuCard>
         <MenuCard>
           <MenuIcon src={Icon14}/>
           <MenuH2> Special Burger </MenuH2>
-          <MenuP> 250gr Burger with Sauce </MenuP>
+          <MenuP> 250gr Burger x Sauce </MenuP>
         </MenuCard>
         <MenuCard>
           <MenuIcon src={Icon15}/>
           <MenuH2> Chicken Fillet Burger </MenuH2>
-          <MenuP> 250gr Burger with Chicken </MenuP>
+          <MenuP> 250gr Burger x Chicken </MenuP>
         </MenuCard>
       </MenuWrapper>
 
 
-      <MenuH1> Drinks </MenuH1>
+      <MenuH1 id="drinks"> Drinks </MenuH1>
       <MenuWrapper>
       <MenuCard>
           <MenuIcon src={Icon16}/>

@@ -1,5 +1,5 @@
-import React from 'react'
-import {animateScroll as scroll} from 'react-scroll'
+import React from 'react';
+import {animateScroll as scroll} from 'react-scroll';
 import {FooterContainer, FooterWrap, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLinkTitle, FooterLink, SocialMedia, SocialMediaWrap, SocialLogo, WebsiteRights, SocialIcons, SocialIconLink} from './FooterElements';
 import {FaTwitter, FaYoutube, FaInstagram, FaTelegram} from 'react-icons/fa';
 
@@ -33,21 +33,21 @@ const Footer = () => {
         </FooterLinksContainer>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to='/' onClick={toggleHome}>
+            <SocialLogo to='/'>
               Hotger
             </SocialLogo>
             <WebsiteRights> Slrhoseini © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
             <SocialIcons>
-              <SocialIconLink href="/" target="_blank" aria-label="Twitter">
+              <SocialIconLink href="https://youtu.be/dQw4w9WgXcQ" target="_blank" aria-label="Twitter">
                 <FaTwitter />
               </SocialIconLink>
-              <SocialIconLink href="/" target="_blank" aria-label="Youtube">
+              <SocialIconLink href="https://youtu.be/dQw4w9WgXcQ" target="_blank" aria-label="Youtube">
                 <FaYoutube />
               </SocialIconLink>
-              <SocialIconLink href="/" target="_blank" aria-label="Instagram">
+              <SocialIconLink href="https://youtu.be/dQw4w9WgXcQ" target="_blank" aria-label="Instagram">
                 <FaInstagram />
               </SocialIconLink>
-              <SocialIconLink href="/" target="_blank" aria-label="Telegram">
+              <SocialIconLink href="https://youtu.be/dQw4w9WgXcQ" target="_blank" aria-label="Telegram">
                 <FaTelegram />
               </SocialIconLink>
             </SocialIcons>
