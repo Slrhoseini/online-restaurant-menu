@@ -18,7 +18,7 @@ const HeroSection = () => {
       </HeroBg>
       <HeroContent>
         <HeroH1>
-          Hotger, Best Provider of HotDog and Burgers
+          Hotger Represent Best HotDog and Burgers in Tehran
         </HeroH1>
         <HeroP>
           if you are a vegan, don't try us cause you you will no longer be !

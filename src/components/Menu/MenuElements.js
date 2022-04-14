@@ -10,7 +10,7 @@ export const MenuContainer = styled.div`
   color: #000;
 
   @media screen and (max-width: 768px) {
-    height: 6350px;
+    height: 5800px;
   }
 
   @media screen and (max-width: 480px) {
@@ -38,14 +38,14 @@ export const MenuWrapper = styled.div`
 `;
 
 export const MenuCard = styled.div`
-  background: #d9d9d9;
+  background: #fff;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   border-radius: 10px;
   max-height: 340px;
-  padding: 30px;
+  padding: 15px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
 
